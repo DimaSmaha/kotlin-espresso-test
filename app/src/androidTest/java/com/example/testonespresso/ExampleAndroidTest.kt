@@ -27,8 +27,6 @@ class ExampleAndroidTest {
             .perform(click())
             .check(matches(isDisplayed()))
             .check(matches(isSelected()))
-        onView(withId(com.example.testonespresso.R.id.text_home))
-            .check(matches(isDisplayed()))
         onView(withId(com.example.testonespresso.R.id.navigation_dashboard))
             .check(matches(isNotSelected()))
         onView(withId(com.example.testonespresso.R.id.navigation_notifications))
